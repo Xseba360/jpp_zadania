@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "zadanie1": "ts-node zadanie1/main.ts"
+  }
+}
