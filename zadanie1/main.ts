@@ -3,8 +3,11 @@
  * @param number
  */
 function numberToWords (number: number) {
-if (number < 1 || number > 1000) {
+  if (number < 1 || number > 1000) {
     throw new Error('Number must be between 1 and 1000')
+  }
+  if (number % 1 !== 0) {
+    throw new Error('Number must be an integer')
   }
   const ones = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
   const teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
