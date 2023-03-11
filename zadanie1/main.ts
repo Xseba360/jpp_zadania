@@ -2,7 +2,7 @@
  * Convert a number between 1 and 1000 to words in british english and using 'and' according to british english rules
  * @param number
  */
-function numberToWords (number: number) {
+function numberToWords (number: number): string {
   if (number < 1 || number > 1000) {
     throw new Error('Number must be between 1 and 1000')
   }
@@ -39,7 +39,8 @@ function numberToWords (number: number) {
 function countOfLettersInAString (string: string) {
   return string.replace(/[^a-z]/gi, '').length
 }
-
+let totalCount = 0
 for (let i = 1; i <= 1000; i++) {
-  console.log(numberToWords(i), countOfLettersInAString(numberToWords(i)))
+  totalCount += countOfLettersInAString(numberToWords(i))
 }
+console.log(totalCount)
