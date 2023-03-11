@@ -3,6 +3,13 @@
     "ts-node": "^10.9.1"
   },
   "scripts": {
-    "zadanie1": "ts-node zadanie1/main.ts"
+    "zadanie1": "ts-node zadanie1/main.ts",
+    "zadanie2": "ts-node zadanie2/main.ts",
+    "zadanie3": "ts-node zadanie3/main.ts",
+    "zadanie4": "ts-node zadanie4/main.ts",
+    "zadanie5": "ts-node zadanie5/main.ts",
+    "zadanie6": "ts-node zadanie6/main.ts",
+    "zadanie7": "ts-node zadanie7/main.ts",
+    "zadanie8": "ts-node zadanie8/main.ts"
   }
 }
