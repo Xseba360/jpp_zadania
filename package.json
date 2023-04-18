@@ -2,10 +2,11 @@
   "dependencies": {
     "ts-node": "^10.9.1"
   },
+  "type": "module",
   "scripts": {
     "zadanie1": "ts-node zadanie1/main.ts",
     "zadanie2": "ts-node zadanie2/main.ts",
-    "zadanie3": "ts-node zadanie3/main.ts",
+    "zadanie3": "ts-node-esm zadanie3/main.mts",
     "zadanie4": "ts-node zadanie4/main.ts",
     "zadanie5": "ts-node zadanie5/main.ts",
     "zadanie6": "ts-node zadanie6/main.ts",
